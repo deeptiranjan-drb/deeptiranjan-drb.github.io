@@ -1,0 +1,44 @@
+<style>
+		#name{
+			margin-bottom: 0;
+			font-size: 200%;
+			font-style: "Lucida Console";
+		}
+		#address{
+			margin-top : 0;
+			margin-bottom: 0;
+		}
+		#email{
+			margin-top: 0;
+		}
+		#im{
+			width:100px;
+			align-self: right;
+			float: right;
+		}
+		#place{
+			float:left;
+		}
+		#sign{
+			float:right;
+		}
+	
+		.heading{
+			font-size: 150%;
+			font-style: "Lucida Console";
+			text-decoration: underline;
+			margin-bottom: 2;
+		}
+
+		table{
+			border-collapse: collapse;
+			width: 80%;
+		}
+		th,td{
+			border-collapse: collapse;
+			border: 2px solid black;
+			text-align: left;
+			height: 30px;
+		}
+		
+	</style>
