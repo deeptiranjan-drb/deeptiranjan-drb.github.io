@@ -1,68 +1,72 @@
-		#name{
-			margin-bottom: 0;
-			font-size: 150%;
-			font-style: "Lucida Console";
-			font-weight: 900;
-		}
-		#address{
-			margin-top : 0;
-			margin-bottom: 0;
-		}
-		#email{
-			margin-top: 0;
-		}
-		#title{
-			padding-top: 0;
-			margin-top: 0;
-			text-align: center;
-		}
-		#left{
-			float:left;
-		}
-		#right{
-			margin-top: 30px;
-			text-align: right;
-			float:right;
-		}
-		.im{
-			 width: 100%;
-    		text-align: center;
-		}
-	
-		.heading{
-			font-size: 150%;
-			font-style: "Lucida Console";
-			text-decoration: underline;
-			margin-bottom: 2;
-			font-weight: bolder;
-		}
-		.bold{
-			font-weight: bold;
-		}
-		img{
-			width:150px;
-			border-radius: 50%;
-			border:2px solid black;
-		}
+#name {
+  margin-bottom: 0;
+  font-size: 150%;
+  font-style: "Lucida Console";
+  font-weight: 900;
+}
+#address {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#email {
+  margin-top: 0;
+}
+#title {
+  padding-top: 0;
+  margin-top: 0;
+  text-align: center;
+}
+#left {
+  float: left;
+}
+#signature {
+  text-align: left;
+  margin-left: 80%;
+}
+#right {
+  margin-top: 30px;
+  text-align: right;
+  float: right;
+}
+.im {
+  width: 100%;
+  text-align: center;
+}
+div {
+  overflow: auto;
+}
 
-		table{
-			border-collapse: collapse;
-			width: 80%;
-			border-space: 0 0;
-			border: 2px solid black;
-		}
-		th,td{
-			border-collapse: collapse;
-			border: 2px solid black;
-			text-align: left;
-			height: 30px;
-		}
-		body{
-			margin:20px;
-			padding:20px;
-		}
+.heading {
+  font-size: 150%;
+  font-style: "Lucida Console";
+  text-decoration: underline;
+  margin-bottom: 2;
+  font-weight: bolder;
+}
+.bold {
+  font-weight: bold;
+}
+img {
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
 
-
-  		
-		
-	
+table {
+  border-collapse: collapse;
+  width: 80%;
+  border-space: 0 0;
+  border: 2px solid black;
+}
+th,
+td {
+  border-collapse: collapse;
+  border: 2px solid black;
+  text-align: left;
+  height: 30px;
+}
+body {
+  margin: 2%;
+}
+@media only screen and (max-width: 768px) {
+}
