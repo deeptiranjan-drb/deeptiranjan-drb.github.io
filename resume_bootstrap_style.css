@@ -1,0 +1,69 @@
+#im{
+	width:100px;
+	border:2px solid black;
+
+}
+#name{
+	margin-bottom: 0;
+}
+.bold{
+	font-weight: bold;
+}
+.col-sm-4{ 
+	padding-top:10px;
+	border-right:20px solid #000060;
+	padding-right: 0px;
+	margin-right: 0px;
+	padding-left: 10px; 
+	overflow-wrap: break-word;
+}
+.col-sm-8{
+	padding-top:10px;
+	margin-left: 0;
+	padding-left:0px;
+}
+#sign{
+	text-align-last: right;
+}
+#hobbies,#date,#place{
+	margin-bottom: 0;
+}
+#title,#technical_skills,#objective,#hobbies{
+	padding-top: 5px;
+	border-bottom: 2px solid blue;
+	padding-right: 0;
+	margin-right: 0; 
+	padding-left: 10px;
+	overflow-wrap: break-word;
+}
+#hobbies{
+	padding-top: 5px;
+}
+#id{
+	position: absolute;
+}
+.table-responsive{
+	position: relative;
+}
+h3{
+	text-decoration: underline;
+}
+table{
+}
+@media only screen and (max-width: 575px){
+		.col-sm-4{
+			border-right:0;
+			padding-right:10px;
+
+		}
+		#education,#projects{
+			padding-top: 5px;
+		border-bottom: 2px solid blue;
+		padding-right: 0;
+		margin-right: 0; 
+		padding-left: 10px;
+		overflow-wrap: break-word;
+
+	}
+
+			}
