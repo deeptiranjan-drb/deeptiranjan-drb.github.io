@@ -1,8 +1,8 @@
-<style>
 		#name{
 			margin-bottom: 0;
-			font-size: 200%;
+			font-size: 150%;
 			font-style: "Lucida Console";
+			font-weight: 900;
 		}
 		#address{
 			margin-top : 0;
@@ -11,16 +11,22 @@
 		#email{
 			margin-top: 0;
 		}
-		#im{
-			width:100px;
-			align-self: right;
-			float: right;
+		#title{
+			padding-top: 0;
+			margin-top: 0;
+			text-align: center;
 		}
-		#place{
+		#left{
 			float:left;
 		}
-		#sign{
+		#right{
+			margin-top: 30px;
+			text-align: right;
 			float:right;
+		}
+		.im{
+			 width: 100%;
+    		text-align: center;
 		}
 	
 		.heading{
@@ -28,11 +34,22 @@
 			font-style: "Lucida Console";
 			text-decoration: underline;
 			margin-bottom: 2;
+			font-weight: bolder;
+		}
+		.bold{
+			font-weight: bold;
+		}
+		img{
+			width:150px;
+			border-radius: 50%;
+			border:2px solid black;
 		}
 
 		table{
 			border-collapse: collapse;
 			width: 80%;
+			border-space: 0 0;
+			border: 2px solid black;
 		}
 		th,td{
 			border-collapse: collapse;
@@ -40,5 +57,12 @@
 			text-align: left;
 			height: 30px;
 		}
+		body{
+			margin:20px;
+			padding:20px;
+		}
+
+
+  		
 		
-	</style>
+	

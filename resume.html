@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name = 'author' content = 'Deeptiranjan'>
 	<title>CV OF DEEPTIRANJAN</title>
 	<link rel="stylesheet" type="text/css" href="resume_style.css">
 </head>
 <body>
-	<img id = 'im' src='/home/mindfire/resume_html/img.JPG' />
-	<center>
-	<b id = 'name'> DeeptiRanjan Baliarsingh</b>
+	<div class="im">
+	<img class="image" src='/home/mindfire/resume_html/img.JPG' / alt="Profile photo">
+	</div>
+	<div id = 'title' >
+	<p id = 'name'> DeeptiRanjan Baliarsingh</p>
 	<p id = 'address'> At/po- Kulei, Ps- Banpur, Dist- khordha, Pin-752034</p>	
 	<p id = 'email'>7809524480<b>|</b>deeptiranjan3.drb@gmail.com</p>
-	</center>
+	</div>
 	
 
 	<div id = 'objective'> 
-		<b class = 'heading'>OBJECTIVE</b>
+		<p class = 'heading'>OBJECTIVE</p>
 		<p> 
 			Seeking a working position that will allow me to explore career options in the ITsector. 
 			A self-motivated, hardworking graduate student in computer science, I have undergone various training program and completed some projects relevant to this career.
 		</p>
 	</div>
 
-	<br />
 
 	<div id = 'education'>
-		<b class = 'heading' >EDUCATIONAL QUALIFICATION</b>
-		<table style = "border-space: 0 0; border: 2px solid black;">
+		<p class = 'heading' >EDUCATIONAL QUALIFICATION</p>
+		<table>
 			<tr>
 				<th>Examination</th><th>Percentage/CGPA</th><th>Name of institute</th><th>Board/University</th><th>Year of Passing</th>
 			</tr>
@@ -41,44 +45,33 @@
 		</table>
 	</div>
 
-	<br />
 
 	<div id = 'technical skills' >
-		<b class = 'heading'>TECHNICAL SKILLS</b>
+		<p class = 'heading'>TECHNICAL SKILLS</p>
 		<ul>
-			<li ><b>Programming Languages:</b> C, Java, Python </li>
-			<br />
-			<li><b>Operating systems:</b> Linux, Windows </li>
-			<br />
-			<li><b>Databases:</b> MySQL</li>
-			<br />
+			<li ><p class="bold">Programming Languages:</p> <p>C, Java, Python</p> </li>
+			<li><p class="bold">Operating systems:</p> Linux, Windows </li>
+			<li><p class="bold">Databases:</p> MySQL</li>
 		</ul>
 	</div>
 
-	<br />
 
 	<div id = 'projects'>
-		<b class = 'heading' >PROJECTS</b>
+		<p class = 'heading' >PROJECTS</p>
 		<ul>
-			<li><b>Image Enhancement using OpenCV</b></li>
-			<br />
-			<b>Description: </b>
-			<br />
+			<li><p class="bold">Image Enhancement using OpenCV</p></li>
+			<p class="bold">Description: </p>
 			<p>Used OpenCV module in Python to perform denoising, exposure correction,
 				boosting and deblurring of a given image </p>
-			<li><b>Examination portal prototype</b></li>
-			<br />
-			<b>Description: </b>
-			<br />
+			<li><p class="bold">Examination portal prototype</p></li>
+			<p class="bold">Description: </p>
 			<p>Designed a examination portal to view both objective and subject questions
 				with answers using jdbc, html & css</p>
 		</ul>
 	</div>
 
-	<br />
-
 	<div id = 'hobbies'>
-		<b class = 'heading'>HOBBIES</b>
+		<p class = 'heading'>HOBBIES</p>
 		<ul>
 			<li>Watching movies</li>
 			<br />
@@ -90,12 +83,14 @@
 		</ul>
 	</div>
 
-	<br />
-
 	<footer>
-		<p><b>Date:</b> 13.01.2020</p>
-		<p id = 'place'><b>Place:</b>Bhubaneswar</p>
-		<p id = 'sign'><b>Signature: </b>Deeptiranjan Baliarsingh</p>
+		<div id = 'left'>
+		<p  id = 'date' class = 'bold'>Date: 13.01.2020</p>
+		<p 	id = 'place' class = 'bold'>Place: Bhubaneswar</p>
+		</div>
+		<div id = 'right'>
+		<p id = 'sign' class = 'bold'>Signature: Deeptiranjan Baliarsingh</p>
+		</div>
 	</footer>
 
 </body>
