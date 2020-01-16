@@ -1,69 +1,109 @@
-#im{
-	width:100px;
-	border:2px solid black;
-
+#im {
+  width: 100px;
+  border: 2px solid black;
 }
-#name{
-	margin-bottom: 0;
+#name {
+  margin-bottom: 0;
 }
-.bold{
-	font-weight: bold;
+.bold {
+  font-weight: bold;
 }
-.col-sm-4{ 
-	padding-top:10px;
-	border-right:20px solid #000060;
-	padding-right: 0px;
-	margin-right: 0px;
-	padding-left: 10px; 
-	overflow-wrap: break-word;
+.col-lg-4 {
+  padding-top: 10px;
+  border-right: 20px solid #000060;
+  padding-right: 0px;
+  margin-right: 0px;
+  padding-left: 10px;
+  overflow-wrap: break-word;
+  border-bottom: 2px solid #000060;
 }
-.col-sm-8{
-	padding-top:10px;
-	margin-left: 0;
-	padding-left:0px;
+.col-lg-8 {
+  padding-top: 10px;
+  border-bottom: 2px solid #000060;
+  margin-left: 0;
+  padding-left: 0px;
 }
-#sign{
-	text-align-last: right;
+#signature {
+  text-align: left;
+  margin-left: 70%;
+  padding-right: auto;
+  padding-left: auto;
 }
-#hobbies,#date,#place{
-	margin-bottom: 0;
+#hobbies,
+#date,
+#place {
+  margin-bottom: 0;
 }
-#title,#technical_skills,#objective,#hobbies{
-	padding-top: 5px;
-	border-bottom: 2px solid blue;
-	padding-right: 0;
-	margin-right: 0; 
-	padding-left: 10px;
-	overflow-wrap: break-word;
+#title,
+#technical_skills,
+#objective {
+  padding-top: 5px;
+  border-bottom: 2px solid #000060;
+  padding-right: 0;
+  margin-right: 0;
+  padding-left: 10px;
+  overflow-wrap: break-word;
 }
-#hobbies{
-	padding-top: 5px;
+#hobbies {
+  padding-top: 5px;
 }
-#id{
-	position: absolute;
+#id {
+  position: absolute;
 }
-.table-responsive{
-	position: relative;
+.table-responsive {
+  position: relative;
 }
-h3{
-	text-decoration: underline;
+.heading {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 150%;
 }
-table{
+.name {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: bold;
+  font-size: 150%;
 }
-@media only screen and (max-width: 575px){
-		.col-sm-4{
-			border-right:0;
-			padding-right:10px;
-
-		}
-		#education,#projects{
-			padding-top: 5px;
-		border-bottom: 2px solid blue;
-		padding-right: 0;
-		margin-right: 0; 
-		padding-left: 10px;
-		overflow-wrap: break-word;
-
+table {
+}
+@media only screen and (max-width: 768px) {
+  .col-lg-4 {
+    border-right: 0;
+    padding-right: 10px;
+  }
+  #education {
+    padding-top: 5px;
+    border-bottom: 2px solid #000060;
+    padding-right: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    overflow-wrap: break-word;
+  }
+  #projects {
+    padding-top: 5px;
+    padding-right: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    overflow-wrap: break-word;
+  }
+  #title {
+    text-align: center;
+  }
+  #signature {
+    margin: 0;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #title {
+    text-align: center;
+  }
+}
+/*@media only screen and (max-width: 425px){
+	.signature{
+		text-align: right;
+		margin:0;
+		padding:0;
 	}
-
-			}
+	}
+		*/
