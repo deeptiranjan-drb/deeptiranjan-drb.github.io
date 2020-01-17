@@ -63,7 +63,7 @@
   font-weight: bold;
   font-size: 150%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   .col-lg-4 {
     border-right: 0;
     padding-right: 10px;
