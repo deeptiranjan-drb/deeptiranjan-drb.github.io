@@ -24,11 +24,9 @@
   padding-left: 0px;
 }
 #signature {
+  display: inline-block;
+  float: right;
   text-align: left;
-  margin-left: 70%;
-  padding-left: 8%;
-  padding-right: auto;
-  padding-left: auto;
 }
 #hobbies,
 #date,
@@ -65,8 +63,6 @@
   font-weight: bold;
   font-size: 150%;
 }
-table {
-}
 @media only screen and (max-width: 768px) {
   .col-lg-4 {
     border-right: 0;
@@ -91,8 +87,16 @@ table {
     text-align: center;
   }
   #signature {
-    margin: 0;
-    text-align: center;
+    padding-left: 10px;
+    display: inline-block;
+    float: left;
+    text-align: left;
+  }
+  .col-md-4,
+  .col-md-8 {
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 2px solid #000060;
   }
 }
 @media only screen and (max-width: 375px) {
